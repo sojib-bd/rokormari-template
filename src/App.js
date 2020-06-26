@@ -12,7 +12,7 @@ function App() {
       <TopNavigation/>
       <Banner/>
       <Category/>
-      <OnlineCourses/>
+      <OnlineCourses/>  
     </div>
   );
 }

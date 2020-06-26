@@ -1,28 +1,14 @@
-.course-container{
+.course-container {
+    position: relative;   
+    padding: 50px;    
+    background: rgb(194, 227, 240);
 
-    background: #F2F9FF; 
-    padding: 10px;
-    border: 1px solid red; 
     h1 {
-        margin-top: 100px
-    }  
-    // .courses{
-    //     display: grid;
-    //     grid-template-columns: repeat(3,1fr);
-    //     padding: 70px;        
-    //     margin-top: 100px;
-    // }
-
-    button {
-        color: #FF1948;
-        padding: 10px;
-        border-radius: 30px;      
-        width: 150px;
-        border: 1px solid #FF1948
-        
+        margin: 50px 0px;
     }
-    button:focus{
-        outline: none;
+    .courseReviewBtn {
+        margin-top: 100px;
+        width: 200px;
+        border-radius: 20px;
     }
-
 }
