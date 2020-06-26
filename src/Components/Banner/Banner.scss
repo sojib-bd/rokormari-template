@@ -1,0 +1,38 @@
+.banner-container {
+    background-color: #34065B;
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    justify-content: center;
+    align-items: center;    
+    height: 400px;
+
+    .intro {
+        p {
+            color: #3A86C4;          
+           
+        }
+        h1 {
+            font-size: 50px;
+            color: white;
+           
+        }
+        button {
+            background-color: #FF1948;
+            color: white;
+            width: 200px;
+            padding: 12px;
+            border-radius: 20px;
+            border: 1px solid #34065B;
+        }
+        button:focus{
+            outline: none;
+        }
+    }
+
+    .banner-image{
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    }
+}

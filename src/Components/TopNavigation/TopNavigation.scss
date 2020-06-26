@@ -1,0 +1,35 @@
+.nav-container{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    justify-content: center;
+    height: 80px;    
+    ul{
+        list-style-type: none;
+       
+       
+        li {
+            display: inline-block;
+        }
+
+        input {
+            width: 300px;
+            padding: 8px;
+            
+        }
+
+        .rightSide {
+           
+            position: relative;            
+            padding: 5px;  
+            img {
+                position:absolute;
+                top: 0px;
+                border: 1px solid;
+                left: 1px;
+                padding: 5px;
+                background: blue;
+            }    
+                       
+        }
+    }
+}
