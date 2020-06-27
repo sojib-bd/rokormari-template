@@ -5,14 +5,18 @@ import TopNavigation from './Components/TopNavigation/TopNavigation';
 import Banner from './Components/Banner/Banner';
 import Category from './Components/Category/Category';
 import OnlineCourses from './Components/OnlineCourses/OnlineCourses';
+import Testimonial from './Components/Testimonial/Testimonial';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <TopNavigation/>
       <Banner/>
       <Category/>
-      <OnlineCourses/>  
+      <OnlineCourses/> 
+      <Testimonial/> 
+      <Footer/>
     </div>
   );
 }

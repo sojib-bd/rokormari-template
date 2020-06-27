@@ -1,0 +1,31 @@
+.main-container {
+
+    background: gray;
+    border-radius: 0px 50% 0px 0px;  
+
+    .footer-container {
+        background: #282F95;
+        border: 2px solid tomato;
+        position: relative;
+        border-radius: 100px 0px 0px 0px;    
+       
+        
+        .subscription-body{
+            border:1px solid red;
+            background: #FFFFFF;
+            padding: 30px;
+            margin: 0px 50px 50px 50px;
+            visibility: hidden;
+        }    
+        .footer-info {
+            color: white;
+            margin: 0px 50px;
+            ul {
+                list-style-type: none;
+                text-align: left;
+            
+            }
+           
+        }
+    }
+}
