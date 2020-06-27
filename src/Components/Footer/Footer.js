@@ -4,9 +4,7 @@ import {Container,Row,Col,Form, Button,FormControl} from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="main-container">
-            <div className="footer-container">
-                <div className="curve1"></div>
+        <div className="footer-container">
                 <div className="subscription-body">
                     <Container >
                         <Row>
@@ -66,7 +64,6 @@ const Footer = () => {
                     </Container>
                 </div>
             </div>
-        </div>
     );
 };
 
